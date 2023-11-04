@@ -1,0 +1,24 @@
+.cart {
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+.cart-list {
+	width: 80% !important;
+}
+.checkout {
+	width: 20%;
+	background-color: black;
+	color: white;
+	max-height: 85vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.checkout-item {
+	display: flex;
+	justify-content: space-between;
+}
